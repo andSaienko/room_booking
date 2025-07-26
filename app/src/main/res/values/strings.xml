@@ -9,5 +9,4 @@
     <string name="available_time_label">Available: %1$s - %2$s</string>
     <string name="hide_booked_label">Hide booked</string>
     <string name="show_booked_label">Show booked</string>
-    <string name="reset_booking_label">Reset booking</string>
 </resources>

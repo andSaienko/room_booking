@@ -12,13 +12,3 @@ fun RoomEntity.toDomain(): MeetingRoom =
         freeUntil = freeUntil,
         isBooked = isBooked
     )
-
-fun MeetingRoom.toEntity(): RoomEntity =
-    RoomEntity(
-        id = id,
-        name = name,
-        capacity = capacity,
-        freeFrom = freeFrom,
-        freeUntil = freeUntil,
-        isBooked = isBooked
-    )
