@@ -7,6 +7,7 @@ import com.room.booking.domain.usecase.GetRoomsInfoUseCase
 import io.mockk.coEvery
 import io.mockk.mockk
 import junit.framework.TestCase
+import junit.framework.TestCase.assertFalse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flowOf
@@ -74,6 +75,6 @@ class HomeViewModelTest {
         viewModel.changeBookedRoomsVisibility()
         val state = viewModel.state.value
         advanceUntilIdle()
-        TestCase.assertFalse(state.isBookedRoomsShown)
+        assertFalse(state.isBookedRoomsShown)
     }
 }
