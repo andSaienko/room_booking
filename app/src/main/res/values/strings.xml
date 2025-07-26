@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Room Booking</string>
+    <string name="rooms_title">Rooms</string>
+    <string name="capacity_label">Capacity: %1$d</string>
+    <string name="details_label">Details</string>
+    <string name="booked_label">Booked</string>
+    <string name="details_title">Details</string>
+    <string name="book_button">Book</string>
+    <string name="available_time_label">Available: %1$s - %2$s</string>
+    <string name="hide_booked_label">Hide booked</string>
+    <string name="show_booked_label">Show booked</string>
+    <string name="reset_booking_label">Reset booking</string>
+</resources>
