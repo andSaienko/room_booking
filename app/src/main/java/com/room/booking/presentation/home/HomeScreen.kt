@@ -48,17 +48,6 @@ fun HomeScreen(
                             viewModel.changeBookedRoomsVisibility()
                         }
                     )
-                    DropdownMenuItem(
-                        text = {
-                            Text(
-                                text = stringResource(R.string.reset_booking_label),
-                                style = MaterialTheme.typography.labelSmall
-                            )
-                        },
-                        onClick = {
-                            viewModel.changeBookedRoomsVisibility()
-                        }
-                    )
                 }
             )
         },
